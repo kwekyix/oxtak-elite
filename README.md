@@ -1,4 +1,4 @@
-# Oxtak Elite — Product Page
+# Oxtak Elite Product Page
 
 Static product landing page for **Oxtak Elite**: Oxtak hardware pre-loaded with Xpress AI software.
 
