@@ -198,7 +198,7 @@ nav {
 }
 .hero h1 {
   font-family: var(--font-heading);
-  font-size: 80px;
+  font-size: 72px;
   font-weight: 700;
   letter-spacing: -2px;
   line-height: 1.0;
@@ -736,20 +736,6 @@ html:not(.light) .hardware-model--dark {
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  .stats-bar {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .stat:nth-child(2) {
-    border-right: none;
-  }
-  .stat:nth-child(3) {
-    border-right: 0.5px solid var(--border);
-    border-top: 0.5px solid var(--border);
-  }
-  .stat:nth-child(4) {
-    border-right: none;
-    border-top: 0.5px solid var(--border);
-  }
   .philosophy-grid {
     grid-template-columns: 1fr;
     gap: 40px;
@@ -760,9 +746,6 @@ html:not(.light) .hardware-model--dark {
   .steps-grid {
     grid-template-columns: 1fr;
     gap: 2px;
-  }
-  .uc-grid {
-    grid-template-columns: repeat(2, 1fr);
   }
   .platform-grid {
     grid-template-columns: 1fr;
@@ -802,9 +785,6 @@ html:not(.light) .hardware-model--dark {
     flex-direction: column; 
     align-items: flex-start; 
     gap: 20px; 
-  }
-  .uc-grid { 
-    grid-template-columns: 1fr; 
   }
   .agent-cards {
     grid-template-columns: 1fr;
