@@ -806,8 +806,8 @@ html:not(.light) .hardware-model--dark {
   .uc-grid { 
     grid-template-columns: 1fr; 
   }
-  .agent-cards { 
-    grid-template-columns: repeat(3, 1fr); 
+  .agent-cards {
+    grid-template-columns: 1fr;
   }
   .pricing-now { 
     font-size: 40px; 
